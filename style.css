@@ -7,8 +7,6 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
   box-sizing: border-box;
 }
 
@@ -18,7 +16,7 @@ body {
 }
 
 .column {
-  padding: 10vw 20vw 10vw 20vw;
+  padding: 8vw 20vw 8vw 20vw;
   transition: all 0.5s ease-out;
 }
 
@@ -171,9 +169,9 @@ body {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1800px) {
   .column {
-    padding: 15vw 20vh;
+    padding: 5vw 20vh;
     transition: all 0.5s ease-out;
   }
 
@@ -199,7 +197,7 @@ body {
     width: 31vw;
   }
   .card-message{
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
   
 .message {
