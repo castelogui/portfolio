@@ -1,0 +1,255 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.presentation {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(128, 72, 160) 40%, rgba(63, 94, 251, 1) 100%);
+}
+
+.column {
+  padding: 10vw 20vw 10vw 20vw;
+  transition: all 0.5s ease-out;
+}
+
+.saudacao {
+  color: #ffffff79;
+  font-size: 3vw;
+  font-weight: 800;
+  font-variant-caps: all-small-caps;
+  letter-spacing: -1px;
+  margin-bottom: -70px;
+  transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.title {
+  color: #fff;
+  font-size: 11vw;
+  font-weight: 900;
+  letter-spacing: -6px;
+  line-height: 125px;
+  margin: 65px 0px;
+  transition: all 0.5s ease-out;
+}
+
+.row {
+  margin-top: -60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s ease-out;
+}
+
+.message {
+  max-width: 60%;
+  font-variant-caps: all-petite-caps;
+  color: #ffffff79;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+  transition: all 0.5s ease-out;
+}
+
+.links {
+  display: flex;
+  transition: all 0.5s ease-out;
+}
+
+.link {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  margin: 10px;
+  background-color: #c2c2c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.icon {
+  color: rgb(63, 94, 251);
+  font-size: 25px;
+}
+
+.projects {
+  background: rgb(116, 224, 243);
+  background: radial-gradient(circle, rgb(237, 243, 186) 20%, rgb(136, 129, 226) 100%);
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  transition: all 0.2s ease-in;
+}
+
+.card:hover {
+  border-radius: 40px 70px;
+  transition: all 0.2s ease-out;
+  width: 310px;
+}
+
+.card img {
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.card-content {
+  text-align: center;
+  justify-content: center;
+}
+
+.card-content h2 {
+  font-size: medium;
+  margin: 10px 0;
+}
+
+.card-content p {
+  color: #555;
+}
+
+.card-content a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  height: 40px;
+  margin: 10px 0px;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  background: radial-gradient(circle, rgb(198, 128, 238) 40%, rgb(138, 155, 241) 100%);
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1290px) {
+  .cards-wrapper {
+    justify-content: center;
+  }
+
+  .card {
+    width: 50vw;
+  }
+
+  .card img {
+    max-width: 60%;
+    transition: all 0.5s ease-out;
+  }
+
+  .card:hover {
+    border-radius: 40px 70px;
+    transition: all 0.2s ease-out;
+    width: 51vw;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .column {
+    padding: 20vw 5vw;
+    transition: all 0.5s ease-out;
+  }
+
+  .title {
+    letter-spacing: -2px;
+    line-height: 100px;
+    transition: all 0.5s ease-out;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    letter-spacing: -1px;
+    line-height: 80px;
+    transition: all 0.5s ease-out;
+  }
+
+  .saudacao {
+    font-size: 30px;
+    transition: all 0.5s ease-out;
+  }
+
+  .message {
+    max-width: 80%;
+    transition: all 0.5s ease-out;
+    text-align: end;
+  }
+
+  .links {
+    display: block;
+    transition: all 0.5s ease-out;
+  }
+
+  .card {
+    width: 80vw;
+  }
+
+  .card:hover {
+    width: 81vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .saudacao {
+    font-size: 30px;
+    transition: all 0.5s ease-out;
+  }
+
+  .title {
+    letter-spacing: -1px;
+    line-height: 50px;
+    font-size: 15vw;
+    transition: all 0.5s ease-out;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .links {
+    display: flex;
+    transition: all 0.5s ease-out;
+  }
+
+  .card {
+    width: 70vw;
+  }
+
+  .card:hover {
+    width: 71vw;
+  }
+
+  .card-content h2 {
+    font-size: small;
+  }
+
+  .card-content a {
+    height: 30px;
+    transition: all 0.5s ease-out;
+  }
+
+  .card img {
+    max-width: 90%;
+    transition: all 0.5s ease-out;
+  }
+
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "imgSrc": "../assets/projects/project-financas-login-desktop.png",
+    "imgAlt": "Projeto de finanças feito com PHP, HTML, CSS e MYSQL",
+    "title": "Finanças Pessoais",
+    "message": "Projeto de finanças feito com PHP, HTML, CSS e MYSQL",
+    "link": "https://github.com/castelogui/financeiro"
+  },
+  {
+    "imgSrc": "../assets/projects/project-umasinfoniadiferente-desktop.png",
+    "imgAlt": "Landing Page para a escola de música Uma Sinfonia Diferente",
+    "title": "Uma Sinfonia Diferente",
+    "message": "Landing page para a escola de música Uma Sinfonia Diferente.",
+    "link": "https://umasinfoniadiferente.vercel.app/"
+  }
+]
