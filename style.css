@@ -171,6 +171,43 @@ body {
   }
 }
 
+@media screen and (min-width: 1600px) {
+  .column {
+    padding: 15vw 20vh;
+    transition: all 0.5s ease-out;
+  }
+
+  .title {
+    letter-spacing: -2px;
+    line-height: 190px;
+    transition: all 0.5s ease-out;
+  }
+
+  .card {
+    width: 30vw;
+    transition: all 0.5s ease-out;
+  }
+  .card a{
+    height: 70px;
+  }
+
+  .card a h2{
+    font-size: 2vw;
+  }
+
+  .card:hover {
+    width: 31vw;
+  }
+  .card-message{
+    font-size: 2vw;
+  }
+  
+.message {
+  font-size: 3vw;
+  line-height: 40px;
+}
+}
+
 @media screen and (max-width: 1080px) {
   .column {
     padding: 20vw 5vw;
